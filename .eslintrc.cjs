@@ -21,6 +21,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     'eol-last': 'error',
     'comma-dangle': ['error', 'always-multiline'],
+    'quotes': ['error', 'single'],
+    'semi': ['error', 'never'],
   },
-  ignorePatterns: ['lib', 'playground'],
 }
